@@ -21,17 +21,21 @@ Git (لتحميل المستودع)
 
 1. تحميل المشروع (Clone)
 افتح واجهة السطر البرمجي (Terminal) وقم بنسخ المستودع:
-
+```
 Bash
 git clone https://github.com/qaiscyber/Burp-suite-Lab.git
-
+```
 2. التثبيت والدخول إلى مجلد المشروع 
+```
 Bash
 bash setup.sh
 cd juice-shop_14.0.1
+```
 3. تشغيل التطبيق
+```
 Bash
 npm start
+```
 🔍 كيفية الاستخدام
 بعد التشغيل، توجه إلى الرابط: http://localhost:3000.
 
