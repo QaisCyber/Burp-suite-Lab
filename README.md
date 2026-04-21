@@ -50,12 +50,14 @@ cd Burp-suite-Lab
 
 2. تثبيت البيئة (مرة واحدة فقط)
 ```
-sudo bash install-juice.sh
+chmod +x juice-lab.sh
+sudo bash juice-lab.sh
 ```
 ---
 
 3. تشغيل المختبر
 ```
+chmod +x start-juice.sh
 sudo bash start-juice.sh
 ```
 ---
