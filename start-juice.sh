@@ -9,8 +9,4 @@ echo "Open Browser:"
 echo "http://localhost:3000"
 echo "-----------------------------------"
 
-sudo docker run 
---name juice-shop 
--p 3000:3000 
---restart unless-stopped 
-bkimminich/juice-shop
+sudo docker run --name juice-shop -p 3000:3000 --restart unless-stopped bkimminich/juice-shop
