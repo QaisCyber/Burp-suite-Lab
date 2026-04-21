@@ -41,22 +41,23 @@ https://www.youtube.com/@Qaiscyber
 1. تحميل المشروع
 
 افتح Terminal واكتب:
-
+```
 git clone https://github.com/qaiscyber/Burp-suite-Lab.git
 cd Burp-suite-Lab
+```
 
 ---
 
 2. تثبيت البيئة (مرة واحدة فقط)
-
+```
 sudo bash install-juice.sh
-
+```
 ---
 
 3. تشغيل المختبر
-
+```
 sudo bash start-juice.sh
-
+```
 ---
 
 🔍 كيفية الاستخدام
@@ -66,9 +67,9 @@ sudo bash start-juice.sh
 Server listening on port 3000
 
 ثم افتح المتصفح:
-
+```
 http://localhost:3000
-
+```
 ---
 
 ⚙️ إعداد Burp Suite
